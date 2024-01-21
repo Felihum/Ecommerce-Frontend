@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css"
 
@@ -13,9 +12,7 @@ function NavBar(){
                 <div className="btn-categoria">
                     <Link to="#">Categorias</Link>
                     <i id="icon-arrow" className='bx bx-chevron-down'></i>
-                </div>
-                
-                
+                </div>  
             </div>
             <div className="cnt-end">
                 <Link to="#" id="btn-profile">Profile</Link>
