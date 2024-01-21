@@ -1,0 +1,75 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(83, 74, 74);
+    box-shadow: 0 0 5px 0.1px rgb(0, 0, 0);
+}
+
+.navbar .cnt-logo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar .cnt-mid{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar .cnt-mid a{
+    width: 100px;
+}
+
+.navbar .cnt-end{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon-arrow{
+    color: white;
+    font-size: 20px;
+}
+
+.btn-categoria{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-categoria:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.navbar .cnt-end:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: gray;
+}
+
