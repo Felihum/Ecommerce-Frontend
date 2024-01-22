@@ -48,10 +48,6 @@
     align-items: center;
 }
 
-.navbar .btn-biblioteca:hover{
-
-}
-
 #icon-arrow{
     color: white;
     font-size: 20px;
@@ -68,14 +64,32 @@
     text-align: center;
 }
 
+.btn-mid i{
+    transition: 0.5s;
+}
+
 .btn-mid:hover{
     transition: 0.2s;
     cursor: pointer;
     background-color: gray;
 }
 
+.btn-mid:hover i{
+    animation: rotate 0.5s ;
+    transform: rotate(180deg);
+}
+
 .navbar .cnt-end:hover{
     transition: 0.2s;
     cursor: pointer;
     background-color: gray;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(180deg);
+    }
 }
