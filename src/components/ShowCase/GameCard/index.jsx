@@ -8,10 +8,9 @@ function GameCard(){
                 <img src={img} />
             </div>
             <div className="description">
-                <h1>God of War: Ragnarok</h1>
-                <p>$ 50,00</p>
-            </div>
-            
+                <h1 className="title">God of War: Ragnarok</h1>
+                <p className="price">$ 50,00</p>
+            </div> 
         </div>
     )
 }

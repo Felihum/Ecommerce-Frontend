@@ -33,7 +33,7 @@
 .navbar a{
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .navbar .cnt-mid a{
@@ -41,11 +41,15 @@
 }
 
 .navbar .cnt-end{
-    width: 10%;
+    width: 5%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.navbar .btn-biblioteca:hover{
+
 }
 
 #icon-arrow{
@@ -53,7 +57,10 @@
     font-size: 20px;
 }
 
-.btn-categoria{
+#btn-carrinho{
+    font-size: 20px;
+}
+.btn-mid{
     height: 100%;
     display: flex;
     justify-content: center;
@@ -61,7 +68,7 @@
     text-align: center;
 }
 
-.btn-categoria:hover{
+.btn-mid:hover{
     transition: 0.2s;
     cursor: pointer;
     background-color: gray;
@@ -72,4 +79,3 @@
     cursor: pointer;
     background-color: gray;
 }
-
